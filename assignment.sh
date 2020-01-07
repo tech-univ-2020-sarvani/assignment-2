@@ -6,6 +6,7 @@ read COL2
 
 log=log_file.log
 printf "Log File in experiment branch- " > $log
+printf "Log File in master branch- " > $log
 if [ "$COL1" == "$COL2" ]; then
 	echo "You both think alike" >> $log
 else
